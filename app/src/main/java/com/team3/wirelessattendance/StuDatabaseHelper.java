@@ -141,8 +141,8 @@ public class StuDatabaseHelper {
             //Enter all student details in ContentValues, BEGIN
 
             ContentValues nokia = new ContentValues();
-            nokia.put(stuName,"Nokia E63");
-            nokia.put(stuAddr, "0C:DD:EF:04:96:52");
+            nokia.put(stuName,"sanket");
+            nokia.put(stuAddr, "DC:6D:CD:E7:86:");
             nokia.put(stuRoll, "02");
             db.insert(tablename, null, nokia);
 
